@@ -1,0 +1,28 @@
+{
+  "name": "real-time-chatroom-web-app",
+  "version": "1.0.0",
+  "description": "Real-time chatroom web application!",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickalarcon/Real-time-Chatroom-Web-App.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickalarcon/Real-time-Chatroom-Web-App/issues"
+  },
+  "homepage": "https://github.com/rickalarcon/Real-time-Chatroom-Web-App#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "socket.io": "^3.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
